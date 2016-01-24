@@ -5,6 +5,12 @@
 
 {{! Everything inside the #post tags pulls data from the page }}
 {{#post}}
+<link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}" />
+<link rel="stylesheet" type="text/css" href="{{asset "css/bigfoot-number.css"}}" />
+
+<script type="text/javascript" src="{{asset "js/bigfoot.min.js"}}"></script>
+<script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
+<script type="text/javascript">$.bigfoot();</script>
 
 <header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
     <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">

@@ -369,6 +369,14 @@ mark {
 }
 
 code, tt {
+	padding: 3px 5px;
+	font-family: 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, '맑은 고딕', 'Malgun Gothic', 'Open Sans', 'Helvetica Neue', monospace, Dotumche, 돋움체, sans-serif;
+	font-size: 0.85em;
+	white-space: pre-wrap;
+	background: #303030;
+	color: #fbfbfb;
+	border-radius: 4px;
+/*
     padding: 1px 3px;
     font-family: Inconsolata, monospace, sans-serif;
     font-size: 0.85em;
@@ -376,6 +384,7 @@ code, tt {
     border: #E3EDF3 1px solid;
     background: #F7FAFB;
     border-radius: 2px;
+*/
 }
 
 pre {

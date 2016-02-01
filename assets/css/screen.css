@@ -1253,6 +1253,19 @@ body:not(.post-template) .post-title {
     color: #dd4b39;
 }
 
+button.async-disqus-comments {
+    padding: 12px 18px;
+    border-radius: 100px;
+    color: #888;
+    border: 1px solid #888;
+    background-color: #fff;
+}
+
+button.async-disqus-comments:hover {
+    color: #444;
+    border: 1px solid #444;
+}
+
 
 /* ==========================================================================
    6. Author profile

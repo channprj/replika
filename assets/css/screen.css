@@ -1002,11 +1002,17 @@ body:not(.post-template) .post-title {
     text-decoration: none;
     background-color: #aaa;
     padding: 6px 12px;
+    margin-left: 6px;
     border-radius: 4px;
     color: #fbfbfb;
     word-wrap: break-word;
     word-break: break-word;
     word-break: keep-all;
+}
+
+.read-more:hover {
+    color: #fbfbfb;
+    background-color: #666;
 }
 
 .post-meta {

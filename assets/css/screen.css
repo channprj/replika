@@ -1000,19 +1000,19 @@ body:not(.post-template) .post-title {
 
 .read-more {
     text-decoration: none;
-    background-color: #aaa;
-    padding: 6px 12px;
+    background-color: #ccc;
+    padding: 4px 8px;
     margin-left: 6px;
     border-radius: 4px;
-    color: #fbfbfb;
+    color: #fff;
     word-wrap: break-word;
     word-break: break-word;
     word-break: keep-all;
 }
 
 .read-more:hover {
-    color: #fbfbfb;
-    background-color: #666;
+    color: #fff;
+    background-color: #999;
 }
 
 .post-meta {

@@ -26,35 +26,37 @@
    ========================================================================== */
 
 /* Webfont */
+/*
 @font-face {
     font-family: 'Spoqa Han Sans';
     font-weight: 700;
-    /*src: local('SpoqaHanSans-Bold'), local('SpoqaHanSans-Bold'),*/
+    src: local('SpoqaHanSans-Bold'), local('SpoqaHanSans-Bold'),
     src: url(../fonts/SpoqaHanSans-Bold.eot) format('eot');
     src: url(../fonts/SpoqaHanSans-Bold.svg) format('svg');
-    /*src: url(../font/SpoqaHanSans-Bold.ttf) format('truetype');*/
+    src: url(../font/SpoqaHanSans-Bold.ttf) format('truetype');
     src: local(※), url(../fonts/SpoqaHanSans-Bold.woff) format('woff');
 }
 
 @font-face {
     font-family: 'Spoqa Han Sans';
     font-weight: 400;
-    /*src: local('SpoqaHanSans-Regular'), local('SpoqaHanSans-Regular'),*/
+    src: local('SpoqaHanSans-Regular'), local('SpoqaHanSans-Regular'),
     src: url(../fonts/SpoqaHanSans-Regular.eot) format('eot');
     src: url(../fonts/SpoqaHanSans-Regular.svg) format('svg');
-    /*src: url(../font/SpoqaHanSans-Regular.ttf) format('truetype');*/
+    src: url(../font/SpoqaHanSans-Regular.ttf) format('truetype');
     src: local(※), url(../fonts/SpoqaHanSans-Regular.woff) format('woff');
 }
 
 @font-face {
     font-family: 'Spoqa Han Sans';
     font-weight: 200;
-    /*src: local('SpoqaHanSans-Thin'), local('SpoqaHanSans-Thin'),*/
+    src: local('SpoqaHanSans-Thin'), local('SpoqaHanSans-Thin'),
     src: url(../fonts/SpoqaHanSans-Thin.eot) format('eot');
     src: url(../fonts/SpoqaHanSans-Thin.svg) format('svg');
-    /*src: url(../font/SpoqaHanSans-Thin.ttf) format('truetype');*/
+    src: url(../font/SpoqaHanSans-Thin.ttf) format('truetype');
     src: local(※), url(../fonts/SpoqaHanSans-Thin.woff) format('woff');
 }
+*/
 
 
 article, aside, details,
@@ -217,7 +219,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, '맑은 고딕', 'Malgun Gothic', 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
+    font-family: '맑은 고딕', 'Malgun Gothic', AppleSDGothicNeo-Light, AppleSDGothicNeo, 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
@@ -244,7 +246,7 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, '맑은 고딕', 'Malgun Gothic', 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
+    '맑은 고딕', 'Malgun Gothic', AppleSDGothicNeo-Light, AppleSDGothicNeo, 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
     text-rendering: geometricPrecision;
 }
 
@@ -394,7 +396,7 @@ pre {
     border: #E3EDF3 1px solid;
     width: 100%;
     padding: 10px;
-    font-family: 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, '맑은 고딕', 'Malgun Gothic', 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
+    '맑은 고딕', 'Malgun Gothic', AppleSDGothicNeo-Light, AppleSDGothicNeo, 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
     font-size: 0.9em;
     white-space: pre;
     overflow: auto;
@@ -564,7 +566,7 @@ body.nav-opened .site-wrapper {
 
 .main-nav a {
     text-decoration: none;
-    font-family: 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, '맑은 고딕', 'Malgun Gothic', 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
+    '맑은 고딕', 'Malgun Gothic', AppleSDGothicNeo-Light, AppleSDGothicNeo, 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
 }
 
 /* Navigation */
@@ -740,7 +742,7 @@ body.nav-opened .nav {
     color: #111 !important; /* Overides `.nav a:link, .nav a:visited` colour */
     text-align: center;
     font-size: 12px;
-    font-family: 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, '맑은 고딕', 'Malgun Gothic', 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
+    '맑은 고딕', 'Malgun Gothic', AppleSDGothicNeo-Light, AppleSDGothicNeo, 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 35px;
@@ -912,7 +914,7 @@ body.nav-opened .nav {
     font-size: 5rem;
     letter-spacing: -1px;
     font-weight: 700;
-    font-family: 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, '맑은 고딕', 'Malgun Gothic', 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
+    '맑은 고딕', 'Malgun Gothic', AppleSDGothicNeo-Light, AppleSDGothicNeo, 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
     color: #fff;
     text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.5);
 }
@@ -922,7 +924,7 @@ body.nav-opened .nav {
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, '맑은 고딕', 'Malgun Gothic', 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
+    '맑은 고딕', 'Malgun Gothic', AppleSDGothicNeo-Light, AppleSDGothicNeo, 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
     text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
@@ -1018,7 +1020,7 @@ body:not(.post-template) .post-title {
 .post-meta {
     display: block;
     margin: 1.75rem 0 0 0;
-    font-family: 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, '맑은 고딕', 'Malgun Gothic', 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
+    '맑은 고딕', 'Malgun Gothic', AppleSDGothicNeo-Light, AppleSDGothicNeo, 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
     color: #9EABB3;
@@ -1380,7 +1382,7 @@ button.async-disqus-comments:hover {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, '맑은 고딕', 'Malgun Gothic', 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
+    '맑은 고딕', 'Malgun Gothic', AppleSDGothicNeo-Light, AppleSDGothicNeo, 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
@@ -1466,7 +1468,7 @@ button.async-disqus-comments:hover {
     padding: 4px 10px 5px;
     text-transform: uppercase;
     font-size: 1.1rem;
-    font-family: 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, '맑은 고딕', 'Malgun Gothic', 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
+    '맑은 고딕', 'Malgun Gothic', AppleSDGothicNeo-Light, AppleSDGothicNeo, 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
     color: rgba(255,255,255,0.8);
     border: rgba(255,255,255,0.5) 1px solid;
     border-radius: 4px;
@@ -1557,7 +1559,7 @@ button.async-disqus-comments:hover {
     width: 80%;
     max-width: 710px;
     margin: 4rem auto;
-    font-family: 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, '맑은 고딕', 'Malgun Gothic', 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
+    '맑은 고딕', 'Malgun Gothic', AppleSDGothicNeo-Light, AppleSDGothicNeo, 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
     font-size: 1.3rem;
     color: #9EABB3;
     text-align: center;
@@ -1641,7 +1643,7 @@ button.async-disqus-comments:hover {
     position: relative;
     margin: 8rem 0 0 0;
     padding: 1rem 15px;
-    font-family: 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, '맑은 고딕', 'Malgun Gothic', 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
+    '맑은 고딕', 'Malgun Gothic', AppleSDGothicNeo-Light, AppleSDGothicNeo, 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
     font-size: 1rem;
     line-height: 1.75em;
     color: #BBC7CC;

@@ -221,8 +221,8 @@ body {
     max-height: 100%;
     font-family: '맑은 고딕', 'Malgun Gothic', AppleSDGothicNeo-Light, AppleSDGothicNeo, 'Spoqa Han Sans', 'Noto Sans', 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, 'Open Sans', 'Helvetica Neue', Helvetica, Dotum, 돋움, sans-serif;
     letter-spacing: 0.01rem;
-    font-size: 1.8rem;
-    line-height: 1.75em;
+    font-size: 1.6rem;
+    line-height: 1.8em;
     color: #3A4145;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
